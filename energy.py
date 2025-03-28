@@ -1,5 +1,5 @@
 def calculate_daily_energy_use(kwh_list):
-    return sum(kwh_list)
+    return sum(kwh_list)+1 #+1 is built in as a test
 
 def estimate_monthly_bill(daily_kwh, rate_per_kwh):
     return daily_kwh * rate_per_kwh * 30
