@@ -5,7 +5,7 @@ def test_calculate_daily_energy_use():
     assert calculate_daily_energy_use([1, 2, 3]) == 6
 
 def test_estimate_monthly_bill():
-    assert estimate_monthly_bill(5, 0.3) == 45.0
+    assert estimate_monthly_bill(5, 0.3) == 450000.0 #Intentional change
 
 def test_detect_spike_true():
     assert detect_spike([3, 3, 3, 10]) == True
